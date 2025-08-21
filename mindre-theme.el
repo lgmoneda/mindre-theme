@@ -732,7 +732,7 @@ Takes care of adding or removing hooks when the
     `(org-modern-date-active ((t (:inherit org-modern-done :background ,bg-inactive))))
     `(org-modern-statistics ((t (:inherit org-modern-done :background ,bg-inactive))))
     `(org-modern-priority ((t (:inherit org-modern-done :background ,bg-inactive))))
-    `(org-modern-label ((t (:box (:color ,bg-main)))))
+    `(org-modern-label ((t (:background ,bg-main))))
 
     ;; --- Mu4e ---------------------------------------------------------
     '(mu4e-attach-number-face ((t (:inherit mindre-strong))))
